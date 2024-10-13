@@ -38,8 +38,6 @@ To install the EMBERS Client package, follow these steps:
    pip install -e .
    ```
 
-This will install the package in "editable" mode, which means you can make changes to the source code and see the effects immediately without having to reinstall the package.
-
 ## Usage
 
 Here's a quick example of how to use the EMBERS Client:
@@ -60,41 +58,6 @@ composition_df = client.get_composition_by_ids(sample_ids)
 # Get composition data based on metadata conditions
 composition_df = client.get_composition_by_metadata(conditions)
 ```
-
-For more detailed usage instructions, please refer to the documentation in the `client.py` file.
-
-## Development
-
-To set up the development environment:
-
-1. Create a virtual environment:
-   ```
-   python -m venv venv
-   ```
-
-2. Activate the virtual environment:
-   - On Windows:
-     ```
-     venv\Scripts\activate
-     ```
-   - On macOS and Linux:
-     ```
-     source venv/bin/activate
-     ```
-
-3. Install the development dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. Run the tests:
-   ```
-   python -m unittest discover tests
-   ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
