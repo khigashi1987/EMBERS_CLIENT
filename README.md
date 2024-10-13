@@ -25,7 +25,7 @@ To install the EMBERS Client package, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/khigashi1987/embers_client.git
+   git clone https://github.com/khigashi1987/EMBERS_CLIENT.git
    ```
 
 2. Change to the project directory:
