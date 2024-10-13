@@ -25,7 +25,7 @@ To install the EMBERS Client package, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/embers_client.git
+   git clone https://github.com/khigashi1987/embers_client.git
    ```
 
 2. Change to the project directory:
@@ -49,7 +49,10 @@ from embers_client import EMBERSClient
 client = EMBERSClient()
 
 # Get sample IDs based on metadata conditions
-conditions = {"age": {"min": 20, "max": 30}, "country": ["USA", "Japan"]}
+conditions = {"Age": {"min": 45, "max": 55},
+              "BiologicalSex": ["Male"],
+              "BMI": {"min":25.0, "max":30.0},
+              "GeographicLocation": ["United States"]}
 sample_ids = client.get_samples(conditions)
 
 # Get composition data for specific sample IDs
