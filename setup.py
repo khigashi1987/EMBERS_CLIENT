@@ -14,7 +14,7 @@ setup(
     description="A client package for the EMBERS Database API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/embers_client",
+    url="https://github.com/khigashi1987/EMBERS_CLIENT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
