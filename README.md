@@ -52,7 +52,7 @@ client = EMBERSClient()
 conditions = {"Age": {"min": 45, "max": 55},
               "BiologicalSex": ["Male"],
               "BMI": {"min":25.0, "max":30.0},
-              "GeographicLocation": ["United States"]}
+              "GeographicLocation": ["United States", "Japan"]}
 sample_ids = client.get_samples(conditions)
 
 # Get composition data for specific sample IDs
